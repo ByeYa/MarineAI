@@ -1,7 +1,5 @@
-<details> <summary>Example README content</summary>
+
 markdown
-Copy
-Edit
 # marineAI
 
 `marineAI` is a PyTorch-based computer vision project that uses transfer learning (ResNet) to classify seabed images into **shipwreck** (archaeological site) or **no_shipwreck**. This repository includes:
@@ -35,16 +33,13 @@ Edit
    cd marineAI
 Install dependencies (ideally within a virtual environment):
 bash
-Copy
-Edit
 pip install torch torchvision pillow
 If you have a GPU, also install the appropriate CUDA drivers and a compatible version of PyTorch.
 Data Preparation
 Organize your dataset into the following directory structure:
 
 kotlin
-Copy
-Edit
+
 data/
 ├── train/
 │   ├── shipwreck/
@@ -62,8 +57,7 @@ Training the Model
 Once the data is prepared:
 
 bash
-Copy
-Edit
+
 python train_marineAI.py
 This will:
 
@@ -85,14 +79,12 @@ trained_model_path to the path of the saved weights (default is marineAI_resnet.
 class_names array (e.g., ["no_shipwreck", "shipwreck"]) in the order that matches your training set.
 Run:
 bash
-Copy
-Edit
+
 python classify_new_image.py
 The script will print out the predicted label for your input image.
 Project Structure
 bash
-Copy
-Edit
+
 marineAI/
 ├── marineAI_utils.py       # Utility module: data loading, transforms, trainer class
 ├── train_marineAI.py       # Main training script
@@ -122,9 +114,5 @@ Contributions, questions, and suggestions are welcome.
 Happy training and seabed exploring!
 
 sql
-Copy
-Edit
 
-</details>
 
----
