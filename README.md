@@ -1,3 +1,7 @@
+<details> <summary>Example README content</summary>
+markdown
+Copy
+Edit
 # marineAI
 
 `marineAI` is a PyTorch-based computer vision project that uses transfer learning (ResNet) to classify seabed images into **shipwreck** (archaeological site) or **no_shipwreck**. This repository includes:
@@ -112,3 +116,15 @@ Model Architecture: Feel free to replace models.resnet18 with other options like
 Data Augmentations: Modify transforms (e.g., RandomRotation, ColorJitter) in marineAI_utils.py.
 Freeze or Unfreeze: Toggle freeze_backbone=True/False in the Trainer to control whether pretrained layers are trainable.
 Hyperparameters: Adjust learning_rate, epochs, or batch_size in train_marineAI.py to suit your data size and hardware.
+Thank you for checking out marineAI!
+Contributions, questions, and suggestions are welcome.
+
+Happy training and seabed exploring!
+
+sql
+Copy
+Edit
+
+</details>
+
+---
