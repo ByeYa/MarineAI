@@ -22,8 +22,9 @@ Saves the final model weights to marineAI_resnet.pth
 Classifying New Images
 ```bash
 python classify_new_image.py
-Inside classify_new_image.py, set:
 ```
+
+Inside classify_new_image.py, set:
 
 ```python
 test_image_path = "path/to/your/image.jpg"
@@ -33,7 +34,6 @@ class_names = ["no_shipwreck", "shipwreck"]
 When you run the script, it prints the predicted label for your image.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update any tests and documentation as needed.
 
 License
